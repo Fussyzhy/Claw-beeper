@@ -1,4 +1,4 @@
 interface:
-  display_name: "OpenClaw Mobile Voice"
-  short_description: "Plan and build OpenClaw mobile voice messaging"
-  default_prompt: "Use $openclaw-mobile-voice to add mobile voice-message support to OpenClaw."
+  display_name: "Claw Beeper Mobile Voice"
+  short_description: "Plan and build Claw Beeper mobile voice messaging"
+  default_prompt: "Use $claw-beeper-mobile-voice to add mobile voice-message support to Claw Beeper."

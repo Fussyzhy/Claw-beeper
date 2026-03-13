@@ -179,7 +179,7 @@ async function downloadInputFile(input) {
   }
 
   const url = new URL(input);
-  const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "openclaw-voice-"));
+  const tempDir = await fs.mkdtemp(path.join(os.tmpdir(), "claw-beeper-voice-"));
   const extension = extensionFromSource(
     path.extname(url.pathname),
     response.headers.get("content-type") || "",
@@ -509,8 +509,9 @@ Environment variables:
 
 Prerequisites:
   npm i nodejs-whisper
-  npx nodejs-whisper download
-  Windows also needs make tools such as MinGW-w64 or MSYS2 in PATH
+  Provide the selected ggml model under node_modules/nodejs-whisper/cpp/whisper.cpp/models
+  Provide whisper-cli.exe under node_modules/nodejs-whisper/cpp/whisper.cpp/build/bin or install a build toolchain
+  Keep bundled ffmpeg under tools/ffmpeg/bin when you want project-local media conversion
 `.trim();
 
   process.stdout.write(`${helpText}\n`);

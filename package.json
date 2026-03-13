@@ -1,7 +1,12 @@
 {
-  "name": "openclaw-mobile-voice",
+  "name": "claw-beeper",
   "private": true,
   "type": "commonjs",
+  "scripts": {
+    "check:transcribe": "node --check scripts/transcribe-audio.js",
+    "transcribe": "node scripts/transcribe-audio.js",
+    "transcribe:verbose": "node scripts/transcribe-audio.js --verbose"
+  },
   "dependencies": {
     "nodejs-whisper": "^0.2.9"
   }
