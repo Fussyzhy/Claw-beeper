@@ -1,0 +1,88 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="64" x2="1180" y2="576" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08131C"/>
+      <stop offset="0.55" stop-color="#0D2431"/>
+      <stop offset="1" stop-color="#173948"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="208" y1="144" x2="1032" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="829" y1="116" x2="1134" y2="473" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.04"/>
+    </linearGradient>
+    <filter id="shadow" x="743" y="68" width="442" height="504" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0313725 0 0 0 0 0.109804 0 0 0 0 0.145098 0 0 0 0.35 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="28" fill="url(#bg)"/>
+  <rect x="24" y="24" width="1232" height="592" rx="22" stroke="#FFFFFF" stroke-opacity="0.12"/>
+
+  <g opacity="0.25">
+    <path d="M0 128H1280" stroke="#A5F3FC" stroke-opacity="0.12"/>
+    <path d="M0 256H1280" stroke="#A5F3FC" stroke-opacity="0.12"/>
+    <path d="M0 384H1280" stroke="#A5F3FC" stroke-opacity="0.12"/>
+    <path d="M0 512H1280" stroke="#A5F3FC" stroke-opacity="0.12"/>
+    <path d="M256 0V640" stroke="#A5F3FC" stroke-opacity="0.08"/>
+    <path d="M512 0V640" stroke="#A5F3FC" stroke-opacity="0.08"/>
+    <path d="M768 0V640" stroke="#A5F3FC" stroke-opacity="0.08"/>
+    <path d="M1024 0V640" stroke="#A5F3FC" stroke-opacity="0.08"/>
+  </g>
+
+  <circle cx="192" cy="118" r="12" fill="#2DD4BF"/>
+  <circle cx="228" cy="118" r="12" fill="#38BDF8"/>
+  <circle cx="264" cy="118" r="12" fill="#F59E0B"/>
+
+  <text x="96" y="204" fill="#E6FFFB" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-1.5">
+    Claw Beeper
+  </text>
+  <text x="96" y="278" fill="#9AE6D9" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600">
+    Mobile Voice Skill
+  </text>
+  <text x="96" y="352" fill="#D7E7EC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400">
+    Local speech-to-text for Codex skills and
+  </text>
+  <text x="96" y="392" fill="#D7E7EC" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="400">
+    Claw Beeper mobile voice messaging workflows.
+  </text>
+
+  <g opacity="0.95">
+    <rect x="96" y="450" width="232" height="54" rx="14" fill="#0F2A36"/>
+    <rect x="96" y="450" width="232" height="54" rx="14" stroke="#2DD4BF" stroke-opacity="0.45"/>
+    <text x="122" y="484" fill="#DFFCF6" font-family="Consolas, Menlo, monospace" font-size="22" font-weight="700">
+      nodejs-whisper
+    </text>
+
+    <rect x="344" y="450" width="172" height="54" rx="14" fill="#0F2A36"/>
+    <rect x="344" y="450" width="172" height="54" rx="14" stroke="#38BDF8" stroke-opacity="0.45"/>
+    <text x="386" y="484" fill="#E0F4FF" font-family="Consolas, Menlo, monospace" font-size="22" font-weight="700">
+      ffmpeg
+    </text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="791" y="92" width="346" height="408" rx="34" fill="#07161F"/>
+    <rect x="791" y="92" width="346" height="408" rx="34" stroke="url(#glass)"/>
+    <rect x="823" y="128" width="282" height="300" rx="28" fill="#0E2430"/>
+    <rect x="850" y="154" width="148" height="20" rx="10" fill="#1B3A47"/>
+    <rect x="850" y="188" width="188" height="18" rx="9" fill="#15303C"/>
+    <rect x="850" y="230" width="226" height="82" rx="20" fill="#112F3B"/>
+    <path d="M890 271C902 244 915 244 927 271C939 298 952 298 964 271C976 244 989 244 1001 271C1013 298 1026 298 1038 271" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+    <rect x="850" y="338" width="120" height="18" rx="9" fill="#15303C"/>
+    <rect x="850" y="368" width="182" height="18" rx="9" fill="#15303C"/>
+    <rect x="850" y="454" width="228" height="14" rx="7" fill="#1A3947"/>
+  </g>
+
+  <path d="M718 166C752 188 760 226 736 252C706 286 648 286 620 250" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" opacity="0.7"/>
+  <path d="M692 128C742 160 758 218 724 266C684 324 594 326 550 274" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" opacity="0.35"/>
+</svg>
