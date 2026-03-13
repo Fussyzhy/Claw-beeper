@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Mobile Voice"
+  short_description: "Plan and build OpenClaw mobile voice messaging"
+  default_prompt: "Use $openclaw-mobile-voice to add mobile voice-message support to OpenClaw."

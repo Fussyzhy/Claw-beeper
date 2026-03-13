@@ -1,0 +1,8 @@
+{
+  "name": "openclaw-mobile-voice",
+  "private": true,
+  "type": "commonjs",
+  "dependencies": {
+    "nodejs-whisper": "^0.2.9"
+  }
+}
