@@ -237,12 +237,3 @@ node scripts/transcribe-audio.js --input "C:/Users/Administrator/Desktop/test.og
 - 当前文档和示例默认使用 `base` 模型
 - 这个仓库更适合作为可运行原型和集成参考，而不是通用 npm 包
 
-## 开源前检查
-
-发布前建议明确以下事项：
-
-- 添加 `LICENSE`
-- 决定是否保留 `node_modules/`、模型文件、编译产物和 FFmpeg 二进制
-- 如果需要可复现实验，补充示例音频或截图
-- 检查是否包含环境相关路径或其他不应公开的信息
-
